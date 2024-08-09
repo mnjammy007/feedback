@@ -14,16 +14,17 @@ form {
 }
 
 button {
+    margin: 1rem auto;
     cursor: pointer;
     padding: 0.5rem 1.5rem;
     border-radius: 6px;
-    background-color: #1f0050;
+    background-color: #800e0e;
     color: white;
-    border: 1px solid #1f0050;
+    border: 1px solid #800e0e;
 }
 
 button:hover,
 button:active {
-    background-color: #320777;
-    border-color: #320777;
+    background-color: #bd2d2d;
+    border-color: #bd2d2d;
 }

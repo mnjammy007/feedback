@@ -10,8 +10,8 @@
   </head>
   <body>
     <form action="/profiles/" method="POST" enctype="multipart/form-data">
-        {% csrf_token %}
-      <input type="file" name="image" />
+      {% csrf_token %}
+      {{ form }}
       <button>Upload</button>
     </form>
   </body>
